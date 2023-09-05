@@ -4,11 +4,11 @@ width="133" height="100">
 
 <br /><br /><br /><br /><br />
 
-# ARCHER 2 Advanced MPI course (June 2022)
+# ARCHER2 Advanced MPI course (September 2023)
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<h3>David Henty EPCC: 29-30 June 2022 09:30 - 17:00 BST, online</h3>
+<h3>David Henty EPCC: 6-7 September 2023 09:30 - 17:00 BST, online</h3>
 
 This course is aimed at programmers seeking to deepen their
 understanding of MPI and explore some of its more recent and advanced
@@ -21,7 +21,7 @@ outcomes
 
 *  Understanding of how internal MPI implementation details affect performance
 *  Techniques for overlapping communications and calculation
-*  Advanced use of collective operations in MPI
+*  Familiarity with neighbourhood collective operations in MPI
 *  Understanding of best practice for MPI+OpenMP programming
 *  Knowledge of MPI memory models for RMA operations
 
@@ -48,27 +48,27 @@ a previous run of the course and the details may change for this run.
 &copy; EPCC, The University of Edinburgh, and is only made available
 for private study. </blockquote></p>
 
-<h4>Day 1: Wednesday 29th June</h4>
+<h4>Day 1: Wednesday 6th September</h4>
 
- *   09:30 - 09:45 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/L00-ARCHER2-PTC-Intro.pdf">ARCHER2 and PRACE training</a>
+ *   09:30 - 09:40 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/L00-ARCHER2-Intro.pdf">ARCHER2 training</a>
  *   09:45 - 10:15 <a href="https://b.socrative.com/login/student/">MPI Quiz</a> ("Room Name" is: **HPCQUIZ**)
- *   10:15 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/MPI-Evolution.pdf">MPI History</a>
+ *   10:15 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/MPI-Evolution.pdf">MPI History</a>
  *   11:00 - 11:30 Coffee
- *   11:30 - 13:00 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/MPI-Internals.pdf">Point-to-point Performance</a>
+ *   11:30 - 13:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/MPI-Internals.pdf">Point-to-point Performance</a>
  *   13:00 - 14:00 Lunch
- *   14:00 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/MPI-Optimisation-ARCHER2.pdf">MPI Optimisations</a>
+ *   14:00 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/MPI-Optimisation-ARCHER2.pdf">MPI Optimisations</a>
  *   15:30 - 16:00 Coffee
- *   16:00 - 17:00 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/AMPP-Advanced-Collectives.pdf">Collectives</a>
+ *   16:00 - 17:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/AMPP-Advanced-Collectives.pdf">Collectives</a>
  *   17:00 CLOSE
 
-<h4>Day 2: Thursday 30th June</h4>
+<h4>Day 2: Thursday 7th September</h4>
 
- *   09:30 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/L06-MPIandOpenMP.pdf">MPI + OpenMP (i)<a>
+ *   09:30 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/L06-MPIandOpenMP.pdf">MPI + OpenMP (i)<a>
  *   11:00 - 11:30 Coffee
  *   11:30 - 13:00 MPI + OpenMP (ii) - *same slide deck as above*
  *   13:00 - 14:00 Lunch
- *   14:00 - 14:30 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/IntroRMA.pdf">RMA Access in MPI</a>
- *   14:30 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/slides/SharedMemoryRMA.pdf">New MPI shared-memory model</a>
+ *   14:00 - 14:30 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/IntroRMA.pdf">RMA Access in MPI</a>
+ *   14:30 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/slides/SharedMemoryRMA.pdf">New MPI shared-memory model</a>
  *   15:30 - 16:00 Coffee
  *   16:00 - 17:00 Finish Exercises
  *   17:00 CLOSE
@@ -82,14 +82,14 @@ for private study. </blockquote></p>
 SLURM batch scripts are set to run in the short queue and should work any time. However, on days when the course is running, we have
 special reserved queues to guarantee fast turnaround.
 
-The reserved queue for today is called `ta073_778012`. To use this queue, change the `--qos` and `--reservation` lines to:
+The reserved queue for today is called `ta117_1002288`. To use this queue, change the `--qos` and `--reservation` lines to:
 ````
 #SBATCH --qos=reservation
-#SBATCH --reservation=ta073_778012
+#SBATCH --reservation=ta117_1002288
 ````
 
- * <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/ARCHER2-pingpong.pdf">Ping-pong exercise sheet</a>
- * <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/pingpong.tar">Ping-pong source code</a>
+ * <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/ARCHER2-pingpong.pdf">Ping-pong exercise sheet</a>
+ * <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/pingpong.tar">Ping-pong source code</a>
    
  * Description of 3D halo-swapping benchmark is in this <a href="https://github.com/davidhenty/halobench/">README</a>
  * Download the code directly to ARCHER2 using: `git clone https://github.com/davidhenty/halobench`
@@ -100,7 +100,7 @@ The reserved queue for today is called `ta073_778012`. To use this queue, change
    - run on different numbers of nodes.
  * Note that you will need to change the number of repetitions to get reasonable runtimes: many more for smaller messages, many fewer for larger messages. Each test needs to run for at least a few seconds to give reliable results.
    
- * The collectives exercises are included in <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/collective.tar">this tar file</a>
+ * The collectives exercises are included in <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/collective.tar">this tar file</a>
    - instructions are included as comments at the top of each file
    - `mpigather.c` and `mpigather.f90` illustrate using vectors for gather operations;
    - `mpigather2d.c` and `mpigather2d.f90` extend to gathering a 2D array as described in the lectures;
@@ -109,15 +109,15 @@ The reserved queue for today is called `ta073_778012`. To use this queue, change
  
 <h4>Day 2</h4>
 
-The reserved queue for today is called `ta073_778018`. To use this queue, change the `--qos` and `--reservation` lines to:
+The reserved queue for today is called `ta117_1002291`. To use this queue, change the `--qos` and `--reservation` lines to:
 ````
 #SBATCH --qos=reservation
-#SBATCH --reservation=ta073_778018
+#SBATCH --reservation=ta117_1002291
 ````
 
- * <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/traffic-advmpi.pdf">Traffic modeling exercise sheet</a>
- * <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/traffic.tar">Traffic model source code and solutions (MPI / OpenMP)</a>
-  * <a href="https://github.com/EPCCed/archer2-AMPP-2022-06-29/raw/master/exercises/traffic-RMA.tar">Traffic model source code and solutions (MPI RMA)</a>
+ * <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/traffic-advmpi.pdf">Traffic modeling exercise sheet</a>
+ * <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/traffic.tar">Traffic model source code and solutions (MPI / OpenMP)</a>
+  * <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/master/exercises/traffic-RMA.tar">Traffic model source code and solutions (MPI RMA)</a>
 
 ---
 
