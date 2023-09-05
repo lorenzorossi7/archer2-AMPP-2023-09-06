@@ -58,7 +58,7 @@ for private study. </blockquote></p>
  *   13:00 - 14:00 Lunch
  *   14:00 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/MPI-Optimisation-ARCHER2.pdf">MPI Optimisations</a>
  *   15:30 - 16:00 Coffee
- *   16:00 - 17:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/AMPP-Advanced-Collectives.pdf">Collectives</a>
+ *   16:00 - 17:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/AMPP_Neighbourhood.pdf">Neighbourhood Collectives</a>
  *   17:00 CLOSE
 
 <h4>Day 2: Thursday 7th September</h4>
