@@ -100,12 +100,10 @@ The reserved queue for today is called `ta117_1002288`. To use this queue, chang
    - run on different numbers of nodes.
  * Note that you will need to change the number of repetitions to get reasonable runtimes: many more for smaller messages, many fewer for larger messages. Each test needs to run for at least a few seconds to give reliable results.
    
- * The collectives exercises are included in <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/exercises/collective.tar">this tar file</a>
-   - instructions are included as comments at the top of each file
-   - `mpigather.c` and `mpigather.f90` illustrate using vectors for gather operations;
-   - `mpigather2d.c` and `mpigather2d.f90` extend to gathering a 2D array as described in the lectures;
-   - solutions are include (e.g. `mpigathersol.c`);
-   - there are also other codes that illustrate user-defined operations in reductions (not covered in this course).
+ * The `halobench` program contains an example of using
+   `MPI_Neighbor_alltoall()` to do pairwise swaps of data between neighbouring processes in a regular 3D grd
+ * Tomorrows traffic modelling problem sheet also contains a final MPI exercise
+  in Section 3 to replace point-to-point boundary swapping with neighbourhood collectives.
  
 <h4>Day 2</h4>
 
