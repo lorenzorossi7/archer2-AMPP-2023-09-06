@@ -51,7 +51,7 @@ for private study. </blockquote></p>
 <h4>Day 1: Wednesday 6th September</h4>
 
  *   09:30 - 09:40 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/L00-ARCHER2-Intro.pdf">ARCHER2 training</a>
- *   09:45 - 10:15 <a href="https://b.socrative.com/login/student/">MPI Quiz</a> ("Room Name" is: **HPCQUIZ**)
+ *   09:40 - 10:15 <a href="https://b.socrative.com/login/student/">MPI Quiz</a> ("Room Name" is: **HPCQUIZ**)
  *   10:15 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/MPI-Evolution.pdf">MPI History</a>
  *   11:00 - 11:30 Coffee
  *   11:30 - 13:00 <a href="https://github.com/EPCCed/archer2-AMPP-2023-09-06/raw/main/slides/MPI-Internals.pdf">Point-to-point Performance</a>
