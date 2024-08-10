@@ -1,0 +1,5 @@
+Lecturer's email for questions: d.henty@epcc.ed.ac.uk
+
+Course webpage: archer2.ac.uk/training/courses/220629-advanced-mpi 
+
+GitHub repository for course material: https://github.com/EPCCed/archer2-AMPP-2023-09-06.git

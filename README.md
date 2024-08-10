@@ -94,7 +94,7 @@ The reserved queue for today is called `ta117_1002288`. To use this queue, chang
  * Description of 3D halo-swapping benchmark is in this <a href="https://github.com/davidhenty/halobench/">README</a>
  * Download the code directly to ARCHER2 using: `git clone https://github.com/davidhenty/halobench`
    - compile with `make -f makefile-archer2`
-   - submit with `sbatch archer2.job`
+   - submit with `qsub archer2.job`
  * Other things you could do with the halo swapping benchmark:
    - change the buffer size to be very small ( a few tens of bytes) or very large (bigger than the eager limit) to see if that affects the results;
    - run on different numbers of nodes.
